@@ -24,3 +24,11 @@
 - python manage.py collectstatic
 
 define static file to root folder
+
+# Django connect with postgresql
+
+\* Need to install driver
+
+`pip instal psycopg2
+
+pip install psycopg2-binary`
