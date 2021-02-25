@@ -32,3 +32,8 @@ define static file to root folder
 `pip instal psycopg2
 
 pip install psycopg2-binary`
+
+# For Check what migrations do
+
+`python manage.py sqlmigrate <migrations file name>` `number`
+`python manage.py sqlmigrate listings 0001`
