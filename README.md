@@ -37,3 +37,8 @@ pip install psycopg2-binary`
 
 `python manage.py sqlmigrate <migrations file name>` `number`
 `python manage.py sqlmigrate listings 0001`
+
+# User, Password
+
+user: codewizz
+pass: 123456
