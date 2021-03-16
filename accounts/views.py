@@ -1,9 +1,9 @@
+from django.contrib import messages
 from django.shortcuts import redirect, render
 
 
 def login(request):
     if request.method == 'POST':
-        # Login User
         pass
     else:
         return render(request, 'accounts/login.html')
@@ -15,8 +15,8 @@ def logout(request):
 
 def register(request):
     if request.method == 'POST':
-        # Register User
-        pass
+        messages.error(request, 'Testing error message')
+        return redirect('register')
     else:
         return render(request, 'accounts/register.html')
 
