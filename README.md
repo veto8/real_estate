@@ -38,6 +38,17 @@ pip install psycopg2-binary`
 `python manage.py sqlmigrate <migrations file name>` `number`
 `python manage.py sqlmigrate listings 0001`
 
+# Make migrations?
+
+`python manage.py makemigrations`
+this cli it for create migration file from "Model" every app
+if you want only one or new model, you can put model name as param like
+`python manage.py makemigrations contacts`
+
+then use
+`python manage.py migrate`
+this cli it'll take all migration file to database
+
 # User, Password
 
 user: codewizz
@@ -45,3 +56,7 @@ pass: 123456
 
 user: evadaisie
 pass: eve555%%
+
+# Contact section
+
+`python manage.py startapp contacts`
