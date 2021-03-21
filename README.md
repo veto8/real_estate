@@ -42,3 +42,6 @@ pip install psycopg2-binary`
 
 user: codewizz
 pass: 123456
+
+user: evadaisie
+pass: eve555%%
